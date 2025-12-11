@@ -66,7 +66,7 @@
     font-weight: 700;
 }
 .footer_upper{
-    background-color: rgb(179, 175, 175);
+    background-color: rgba(230, 230, 230);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,8 +79,167 @@
     width: 335px;
 }
 .btnfooterupper{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-left: 50px;
     border: none;
     width: 50px;
     height: 50px;
+}
+.btnfooterupper:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 50px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    transition: 0.5s;
+}
+.contacts p:hover{
+    transition: 0.5s;
+    color: red;
+    cursor: pointer;
+}
+.footer_row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+}
+li:hover{
+    transition: 0.5s;
+    color: red;
+    cursor: pointer;
+    list-style-type: none;
+}
+.footer_catalog{
+    margin-left: 150px;
+}
+.footer_forcustomers{
+    margin-left: 50px
+}
+.footer_payment{
+    margin-left: 100px;
+}
+.footer_payment p{
+    font-size: 12px;
+    color: gray;
+}
+.footer_socmedia{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer_socmedia svg:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.header{
+    background-color: black;
+    color: white;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header li{
+    list-style-type: none;
+    color: white;
+}
+ul img{
+    margin-top: -95px;
+    color: white;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: rgb(72, 72, 72) ;
+}
+/* categoryGenskor */
+.categoryGenskor ul{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(239, 239, 239);
+}
+.categoryGenskor li{
+    list-style-type: none;
+}
+.categoryGenskor a{
+    color: black;
+    text-decoration: none;
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover .listbtn{
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    visibility: visible;
+}
+.listbtn{
+    visibility: hidden;
+    height: 63px;
+    width: 220px;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+.listbtn:hover{
+    height: 63px;
+    width: 220px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.listrow{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+.card img{
+    width: 400;
+}
+.sortirobka{
+    display: flex;
+    align-items: center;
+}
+.sortirobka ul{
+    display: flex;
+}
+.sortirobka li{
+    margin-left: 50px;
+    cursor: default;
+}
+.sortirobka li:hover{
+    margin-left: 50px;
+    cursor: default;
+    color: black;
+}
+.sortirobka svg{
+    cursor: pointer;
+}
+.sortirobka svg:hover{
+    color: red;
+}
+.lohp{
+    margin-left: 550px;
+}
+.peredfooter{
+    display: flex;
+}
+.peredfooter_btn{
+    margin-left: 50px;
+    background-color: gray;
+    color: white;
 }
