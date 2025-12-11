@@ -242,4 +242,36 @@ ul img{
     margin-left: 50px;
     background-color: gray;
     color: white;
+    border: none;
+    height: 63px;
+    width: 388px;
+    font-size: 20px;
+}
+.peredfooter_btn:hover{
+    margin-left: 50px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    height: 63px;
+    width: 388px;
+    font-size: 20px;
+}
+.btn-group{
+    margin-left: 50px;
+}
+.btn-group button{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+.btn-group button:hover{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(184, 183, 183);
+    color: gray;
+    border: 1px solid gray;
 }
